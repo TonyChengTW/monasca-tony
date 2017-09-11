@@ -1,0 +1,3 @@
+[console_scripts]
+monasca-persister = monasca_persister.persister:main
+

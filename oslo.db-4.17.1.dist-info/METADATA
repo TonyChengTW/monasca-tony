@@ -1,0 +1,90 @@
+Metadata-Version: 2.0
+Name: oslo.db
+Version: 4.17.1
+Summary: Oslo Database library
+Home-page: http://docs.openstack.org/developer/oslo.db
+Author: OpenStack
+Author-email: openstack-dev@lists.openstack.org
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Environment :: OpenStack
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Requires-Dist: SQLAlchemy (<1.1.0,>=1.0.10)
+Requires-Dist: alembic (>=0.8.10)
+Requires-Dist: debtcollector (>=1.2.0)
+Requires-Dist: oslo.config (>=3.14.0,!=3.18.0)
+Requires-Dist: oslo.context (>=2.9.0)
+Requires-Dist: oslo.i18n (>=2.1.0)
+Requires-Dist: oslo.utils (>=3.18.0)
+Requires-Dist: pbr (>=1.8)
+Requires-Dist: six (>=1.9.0)
+Requires-Dist: sqlalchemy-migrate (>=0.9.6)
+Requires-Dist: stevedore (>=1.17.1)
+Provides-Extra: fixtures
+Requires-Dist: testresources (>=0.2.4); extra == 'fixtures'
+Requires-Dist: testscenarios (>=0.4); extra == 'fixtures'
+Provides-Extra: mysql
+Requires-Dist: PyMySQL (>=0.7.6); extra == 'mysql'
+Provides-Extra: mysql-c
+Requires-Dist: MySQL-python; (python_version=='2.7') and extra == 'mysql-c'
+Provides-Extra: pifpaf
+Requires-Dist: pifpaf (>=0.10.0); extra == 'pifpaf'
+Provides-Extra: postgresql
+Requires-Dist: psycopg2 (>=2.5); extra == 'postgresql'
+Provides-Extra: test
+Requires-Dist: coverage (>=4.0); extra == 'test'
+Requires-Dist: doc8; extra == 'test'
+Requires-Dist: eventlet (!=0.18.3,>=0.18.2); extra == 'test'
+Requires-Dist: fixtures (>=3.0.0); extra == 'test'
+Requires-Dist: hacking (<0.11,>=0.10.0); extra == 'test'
+Requires-Dist: mock (>=2.0); extra == 'test'
+Requires-Dist: os-testr (>=0.8.0); extra == 'test'
+Requires-Dist: oslosphinx (>=4.7.0); extra == 'test'
+Requires-Dist: oslotest (>=1.10.0); extra == 'test'
+Requires-Dist: python-subunit (>=0.0.18); extra == 'test'
+Requires-Dist: reno (>=1.8.0); extra == 'test'
+Requires-Dist: sphinx (!=1.3b1,<1.4,>=1.2.1); extra == 'test'
+Requires-Dist: testrepository (>=0.0.18); extra == 'test'
+Requires-Dist: testtools (>=1.4.0); extra == 'test'
+
+========================
+Team and repository tags
+========================
+
+.. image:: http://governance.openstack.org/badges/oslo.db.svg
+    :target: http://governance.openstack.org/reference/tags/index.html
+
+.. Change things from this point on
+
+===============================================
+ oslo.db -- OpenStack Database Pattern Library
+===============================================
+
+.. image:: https://img.shields.io/pypi/v/oslo.db.svg
+    :target: https://pypi.python.org/pypi/oslo.db/
+    :alt: Latest Version
+
+.. image:: https://img.shields.io/pypi/dm/oslo.db.svg
+    :target: https://pypi.python.org/pypi/oslo.db/
+    :alt: Downloads
+
+The oslo db (database) handling library, provides database
+connectivity to different database backends and various other helper
+utils.
+
+* Free software: Apache license
+* Documentation: http://docs.openstack.org/developer/oslo.db
+* Source: http://git.openstack.org/cgit/openstack/oslo.db
+* Bugs: http://bugs.launchpad.net/oslo.db
+
+
+

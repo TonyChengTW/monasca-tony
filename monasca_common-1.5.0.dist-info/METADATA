@@ -1,0 +1,27 @@
+Metadata-Version: 2.0
+Name: monasca-common
+Version: 1.5.0
+Summary: Monasca common python modules
+Home-page: https://github.com/openstack/monasca-common
+Author: Hewlett-Packard
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Requires-Dist: PyMySQL (>=0.7.6)
+Requires-Dist: iso8601 (>=0.1.11)
+Requires-Dist: kazoo (>=2.2)
+Requires-Dist: oslo.config (>=3.14.0,!=3.18.0)
+Requires-Dist: pbr (>=1.8)
+Requires-Dist: pykafka (>=2.5.0)
+Requires-Dist: six (>=1.9.0)
+Requires-Dist: ujson (>=1.35)
+
+False
+
+

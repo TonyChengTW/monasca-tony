@@ -1,0 +1,3 @@
+[console_scripts]
+monasca-notification = monasca_notification.main:main
+
